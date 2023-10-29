@@ -1,0 +1,10 @@
+[package]
+name = "tdd_kata_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0.190"
+serde_json = "1.0.107"
+tokio = { version="1.33.0", features = ["time", "rt", "rt-multi-thread", "macros"] }
+tokio-macros = { version="2.1.0" }
